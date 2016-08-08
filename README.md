@@ -17,4 +17,6 @@ It can work with Python 2.X or Python 3.X. But if you are using Python 2.6.X, yo
 usage: dir-protector.py [-h] [-r] [-t TIME] target_dir backup_dirpositional arguments:  target_dir  directory you want to protect  backup_dir  content in target_dir will be copied into this directory for              restoring origin directory and backup. this directory must not              already existoptional arguments:  -h, --help  show this help message and exit  -r          record new added and modified files in a new directory              'record_files' which will be created in 'backup_dir'  -t TIME     interval time between scans
 ```
 
-## Li
+## License
+
+GPLv3.
